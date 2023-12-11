@@ -1,8 +1,8 @@
-@import "libs/normalize";
-@import "libs/fonts";
+@import "node_modules/normalize-scss/sass/normalize";
 
 @import "base/mixins";
 @import "base/variables";
+@import "base/fonts";
 
 @import "blocks/text";
 
@@ -17,7 +17,7 @@
 
     box-sizing: border-box;
 
-    font-family: sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 
 html {
@@ -30,7 +30,6 @@ body {
 }
 
 .container {
-    max-width: 1200px;
-    padding: 0 15px;
+    max-width: 1110px;
     margin: 0 auto;
 }
