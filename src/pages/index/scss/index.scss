@@ -29,6 +29,10 @@ body {
     background-color: var(--bg-main);
 }
 
+li {
+    list-style-type: none;
+}
+
 a {
     text-decoration: none;
 }
