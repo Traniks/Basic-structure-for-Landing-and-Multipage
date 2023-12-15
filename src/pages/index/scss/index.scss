@@ -29,6 +29,10 @@ body {
     background-color: var(--bg-main);
 }
 
+a {
+    text-decoration: none;
+}
+
 .container {
     max-width: 1110px;
     margin: 0 auto;
