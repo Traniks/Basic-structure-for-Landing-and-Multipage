@@ -13,8 +13,8 @@ module.exports = {
 		new HtmlBundlerPlugin({
 			entry: {
 				index: './src/pages/index/index.html',
-				// 'about/index': './src/pages/about/index.html',
-				// 'hello/index': './src/pages/hello/index.html',
+				'about': './src/pages/about/about.html',
+				'contact': './src/pages/contact/contact.html',
 			},
 			js: {
 				filename: 'assets/js/[name].[contenthash:8].js',
@@ -24,7 +24,7 @@ module.exports = {
 			},
 		}),
 		// new CopyPlugin({
-		//   patterns: ['public'],
+		// 	patterns: ['public'],
 		// }),
 	],
 
