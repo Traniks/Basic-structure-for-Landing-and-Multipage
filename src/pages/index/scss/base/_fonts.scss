@@ -1,17 +1,19 @@
-@mixin font-face($font-family, $url, $weight) {
+$font-path: '../../fonts/';
+
+@mixin font-face($font-family, $font-name, $weight) {
     @font-face {
         font-family: "#{$font-family}";
-        src: url('../../fonts/#{$url}.woff') format("woff");
-        src: url('../../fonts/#{$url}.woff2') format("woff2");
+        src: url('#{$font-path}#{$font-name}.eot');
+        src: url('#{$font-path}#{$font-name}.eot?#iefix') format('embedded-opentype'),
+            url('#{$font-path}#{$font-name}.woff') format("woff"),
+            url('#{$font-path}#{$font-name}.woff2') format("woff2"),
+            url('#{$font-path}#{$font-name}.ttf') format('truetype');
         font-weight: #{$weight};
         font-style: normal;
         font-display: swap;
     }
 }
 
-// @include font-face("Poppins", "PoppinsLight", 300);
-// @include font-face("Poppins", "PoppinsRegular", 400);
-// @include font-face("Poppins", "PoppinsMedium", 500);
-// @include font-face("Poppins", "PoppinsSemiBold", 600);
-// @include font-face("Poppins", "PoppinsBold", 700);
-// @include font-face("Poppins", "PoppinsExtraBold", 800);
+@include font-face("Montserrat Alternates", "MontserratAlternates-Regular", 400);
+@include font-face("Montserrat Alternates", "MontserratAlternates-SemiBold", 600);
+@include font-face("Montserrat Alternates", "MontserratAlternates-Bold", 700);

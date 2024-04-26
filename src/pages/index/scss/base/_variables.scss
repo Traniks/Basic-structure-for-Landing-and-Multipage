@@ -1,7 +1,14 @@
 :root {
     // background
     --bg-main: #ffffff;
-    --bg-second: rgba(255, 255, 255, 0.08);
+    --bg-second: #a7a7a7;
+    
+    // burger
+    --burger-bg: rgba(0, 0, 0, 0);
+    --burger-color: #ffffff;
+
+    // nav
+    --menu-bg: #00000075;
 
     // table
     --table: #97979736;
@@ -9,6 +16,7 @@
 
     //text
     --text-main: #ffffff;
+    --text-second: #000000;
     --text-active: #FFB548;
 
     // input
@@ -17,13 +25,13 @@
 
     //btn
     --btnColor-default_bg: #FFB548;
-    --btnColor-default_text: #1A1917;
+    --btnColor-default_text: #000000;
 
     --btnColor-hover_bg: #ffffff;
-    --btnColor-hover_text: #1A1917;
+    --btnColor-hover_text: #000000;
 
     --btnColor-focus_bg: #FFB548;
-    --btnColor-focus_text: #1A1917;
+    --btnColor-focus_text: #000000;
     --btnBorder-focus_border: #ffffff;
 
     // z-index
