@@ -4,8 +4,6 @@
 @import "base/variables";
 @import "base/fonts";
 
-@import "blocks/text";
-
 @import "blocks/header";
 @import "blocks/footer";
 
@@ -19,7 +17,7 @@
 }
 
 html {
-    scroll-behavior: smooth;
+    // scroll-behavior: smooth;
 }
 
 body {
@@ -37,7 +35,7 @@ a {
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1240px;
     padding: 0 20px;
     margin: 0 auto;
 }
